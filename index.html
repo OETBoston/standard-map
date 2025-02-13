@@ -121,7 +121,7 @@
         return matchingFeatures;
       };
 
-    mapboxgl.accessToken = '';
+    mapboxgl.accessToken = 'pk.eyJ1Ijoib2V0Ym9zdG9uIiwiYSI6ImNtNzJ1aTMwOTAyNHEya29vOGN6cTV2M2kifQ.rEQ5ubToGj8SRNhMyytcmw';
     
     var map = new mapboxgl.Map({
       container: 'map',
@@ -187,7 +187,8 @@
 
                 const popup = new mapboxgl.Popup({ offset: 25 }).setHTML(
                 
-                    '<h3>'+data.features[i].properties.Location_Type+'</h3><h4>'+data.features[i].properties.Name+'</h4>'
+                    '<h3>'+data.features[i].properties.Location_Type+'</h3>
+                     <h4>'+data.features[i].properties.Name+' <img src="leaf-nav.png"></h4>'
 
                 );
                  
