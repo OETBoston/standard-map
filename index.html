@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='utf-8' />
+  <title>Green Infrastructure Sites | Boston</title>
+  <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src='https://api.mapbox.com/mapbox-gl-js/v2.0.1/mapbox-gl.js'></script>
+  <link href='https://api.mapbox.com/mapbox-gl-js/v2.0.1/mapbox-gl.css' rel='stylesheet' />
+  <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.4.2/mapbox-gl-geocoder.css" type="text/css">
+  <script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.4.2/mapbox-gl-geocoder.min.js"></script>
+<style>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    #map {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      width: 100%;
+    }
+
+    .mapboxgl-marker {
+        cursor: pointer;
+    }
+
+    .mapboxgl-popup {
+      padding-bottom: 5px;
+    }
+
+    .mapboxgl-popup-close-button {
+      display: none;
+    }
+
+    .mapboxgl-popup-content {
+      font: 400 15px/22px 'Source Sans Pro', 'Helvetica Neue', Sans-serif;
+      padding: 0;
+      width: 250px;
+    }
+
+    .mapboxgl-popup-content-wrapper {
+      padding: 1%;
+    }
+
+    .mapboxgl-popup-content h3 {
+      background: rgb(27, 160, 96);
+      text-align: center;
+      color: #fff;
+      margin: 0;
+      display: block;
+      padding: 15px;
+      font-weight: 700;
+      margin-top: -5px;
+    }
+
+    .mapboxgl-popup-content h4 {
+      margin: 0;
+      display: block;
+      padding: 10px 3px 10px 10px;
+      font-weight: 400;
+    }
+
+    .mapboxgl-container {
+      cursor: pointer;
+    }
+
+    .mapboxgl-popup-anchor-top>.mapboxgl-popup-content {
+      margin-top: 3px;
+    }
+
+    .mapboxgl-popup-anchor-top>.mapboxgl-popup-tip {
+      border-bottom-color: rgb(27, 160, 96);
+    }
+    
+    .mapboxgl-ctrl-geocoder {
+      width: 315px!important;
+    }
+  
+    .mapboxgl-popup-content h4 {
+      font-weight: 600;  
+    }
+  </style>
+</style>
+</head>
+<body>
+<div id="map"></div>
+<script>
+    
+    var locationData;
+    
+    var transformRequest = (url, resourceType) => {
+      var isMapboxRequest =
+        url.slice(8, 22) === "api.mapbox.com" ||
+        url.slice(10, 26) === "tiles.mapbox.com";
+      return {
+        url: isMapboxRequest
+          ? url.replace("?", "?pluginName=sheetMapper&")
+          : url
+      };
+    };
+    
+    function forwardGeocoder(query) {
+      var matchingFeatures = [];
+      for (var i = 0; i < locationData.features.length; i++) {
+        var feature = locationData.features[i];
+        
+        if (feature.properties.Neighborhood.toLowerCase().search(query.toLowerCase()) !== -1) {
+          feature['place_name'] = `🌱 ${feature.properties.Address} in ${feature.properties.Neighborhood}`
+          feature['center'] = feature.geometry.coordinates;
+          feature['place_type'] = ['Community-Garden'];
+          
+          matchingFeatures.push(feature);
+        }
+        
+       }
+      
+        return matchingFeatures;
+      };
+
+    mapboxgl.accessToken = '';
+    
+    var map = new mapboxgl.Map({
+      container: 'map',
+      style: 'mapbox://styles/mapbox/light-v10',
+      center: [-71.0616, 42.3365],
+      zoom: 11,
+      hash: true,
+      attributionControl: false,
+      transformRequest: transformRequest
+    });
+
+    map.addControl(new mapboxgl.AttributionControl({
+      customAttribution: "Mayor's Office of New Urban Mechanics"
+    }));
+    
+    map.scrollZoom.disable();
+    
+    map.addControl(new mapboxgl.NavigationControl(), 'bottom-right');
+    
+    map.on('load', () => {
+      map.addSource('gi', {
+        type: 'geojson',
+        data: 'gi-locations.geojson'
+       });
+
+    map.addLayer({
+      'id': 'gi-line-layer',
+      'type': 'line',
+      'source': 'gi',
+      'paint': {
+        'line-width': 6,
+        'line-color': "#09bb9f"
+    },
+    'filter': ['==', '$type', 'LineString']
+  });
+
+  map.addLayer({
+      'id': 'gi-polygon-layer',
+      'type': 'fill',
+      'source': 'gi',
+      'paint': {
+        'fill-color': '#0080ff',
+        'fill-opacity': 0.8
+    },
+    'filter': ['==', '$type', 'Polygon']
+    });
+    });
+
+    d3.json("gi-locations.geojson").then(function(data){ 
+        var col;
+        for (var i=0; i < data.features.length; i++) {
+            if (data.features[i].geometry.type == "Point"){
+                var lt = data.features[i].properties.Location_Type;
+                if (lt == "School"){
+                    col = '#ff5f4c';
+                } else if (lt == "Library") {
+                    col = '#43A2CE';
+                } else if (lt == "Community Center") {
+                    col = '#18a1cd';
+                } else {
+                    col = '#2ecc40';
+                }
+
+                const popup = new mapboxgl.Popup({ offset: 25 }).setHTML(
+                
+                    '<h3>'+data.features[i].properties.Location_Type+'</h3><h4>'+data.features[i].properties.Name+'</h4>'
+
+                );
+                 
+                const el = document.createElement('div');
+                el.id = 'marker';
+
+                new mapboxgl.Marker({ color: col, scale: .8, rotation: 0 })
+                .setPopup(popup)
+                .setLngLat(data.features[i].geometry.coordinates)
+                .addTo(map);
+            }
+        }
+    });
+</script>
+ 
+</body>
+</html>
