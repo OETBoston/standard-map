@@ -10,6 +10,7 @@
     "properties": {
     "name":"Franklin St. Neighborway",
     "location":"Allston, Franklin St. and Fern St.",
+    "type":"Installation",
     "casestudy":"Yes",
     "competitionyear":2016
     }
@@ -23,6 +24,7 @@
     "properties": {
     "name":"LightWell",
     "location":"South End Library Park",
+    "type":"Installation",
     "casestudy":"Yes",
     "competitionyear":2014
     }
@@ -36,6 +38,7 @@
     "properties": {
     "name":"Mystery Map",
     "location":"Saratoga Street @ Prescott Street",
+    "type":"Installation",
     "casestudy":"Yes",
     "competitionyear":2018
     }
@@ -49,6 +52,7 @@
     "properties": {
     "name":"Portable Reading Room",
     "location":"Rose Kennedy Greenway,\nChinatown Park",
+    "type":"Installation",
     "casestudy":"Yes",
     "competitionyear":2014
     }
@@ -62,6 +66,7 @@
     "properties": {
     "name":"Public Radio",
     "location":"District Hall",
+    "type":"Installation",
     "casestudy":"Yes",
     "competitionyear":2016
     }
@@ -75,6 +80,7 @@
     "properties": {
     "name":"Real People, Real Stories:\nMattapan",
     "location":"Mattapan Branch Library",
+    "type":"Installation",
     "casestudy":"Yes",
     "competitionyear":2016
     }
@@ -88,6 +94,7 @@
     "properties": {
     "name":"Seat Light Control",
     "location":"Washington St. and Milk St.",
+    "type":"Installation",
     "casestudy":"Yes",
     "competitionyear":2016
     }
@@ -101,6 +108,7 @@
     "properties": {
     "name":"Stairs of Fabulousness",
     "location":"Boston City Hall",
+    "type":"Installation",
     "casestudy":"Yes",
     "competitionyear":2014
     }
@@ -114,6 +122,7 @@
     "properties": {
     "name":"Trailer Made",
     "location":"Fenway Victory Gardens",
+    "type":"Installation",
     "casestudy":"Yes",
     "competitionyear":2018
     }
@@ -127,6 +136,7 @@
     "properties": {
     "name":"Trailer Made",
     "location":"Nightingale Community \nGarden",
+    "type":"Installation",
     "casestudy":"Yes",
     "competitionyear":2018
     }
@@ -140,6 +150,7 @@
     "properties": {
     "name":"Trailer Made",
     "location":"Chilcott + Granada Community\nGarden",
+    "type":"Installation",
     "casestudy":"Yes",
     "competitionyear":2018
     }
@@ -153,6 +164,7 @@
     "properties": {
     "name":"Wheel'n Around",
     "location":"Fenway Victory Gardens",
+    "type":"Installation",
     "casestudy":"Yes",
     "competitionyear":2019
     }
@@ -166,6 +178,7 @@
     "properties": {
     "name":"Winter Memories: Boston",
     "location":"Franklin Park",
+    "type":"Installation",
     "casestudy":"Yes",
     "competitionyear":2019
     }
@@ -179,6 +192,7 @@
     "properties": {
     "name":"Winter Memories: Boston",
     "location":"East Boston Greenway",
+    "type":"Installation",
     "casestudy":"Yes",
     "competitionyear":2019
     }
@@ -192,6 +206,7 @@
     "properties": {
     "name":"Winter Memories: Boston",
     "location":"BCYF Paris St.",
+    "type":"Installation",
     "casestudy":"Yes",
     "competitionyear":2019
     }
@@ -205,6 +220,7 @@
     "properties": {
     "name":"All Who are Hungry",
     "location":"Leland St. Community Garden",
+    "type":"Installation",
     "casestudy":"",
     "competitionyear":2019
     }
@@ -218,6 +234,7 @@
     "properties": {
     "name":"Celebrate + Activate",
     "location":"Nightingale Community \nGarden",
+    "type":"Installation",
     "casestudy":"",
     "competitionyear":2018
     }
@@ -231,6 +248,7 @@
     "properties": {
     "name":"Cross Pollination",
     "location":"Nightingale Community \nGarden",
+    "type":"Installation",
     "casestudy":"",
     "competitionyear":2018
     }
@@ -244,6 +262,7 @@
     "properties": {
     "name":"Ecosonic Playground",
     "location":"Geneva Ave @ Westville Street",
+    "type":"Installation",
     "casestudy":"",
     "competitionyear":2018
     }
@@ -257,6 +276,7 @@
     "properties": {
     "name":"Grow Up Curious",
     "location":"Joe Ciampa Community Garden",
+    "type":"Installation",
     "casestudy":"",
     "competitionyear":2018
     }
@@ -270,6 +290,7 @@
     "properties": {
     "name":"KoP*",
     "location":"Joe Ciampa Community Garden",
+    "type":"Installation",
     "casestudy":"",
     "competitionyear":null
     }
@@ -283,6 +304,7 @@
     "properties": {
     "name":"LightWell v2*",
     "location":"Joe Ciampa Community Garden",
+    "type":"Installation",
     "casestudy":"",
     "competitionyear":null
     }
@@ -296,6 +318,7 @@
     "properties": {
     "name":"Night Garden",
     "location":"Bolling Building",
+    "type":"Installation",
     "casestudy":"",
     "competitionyear":2016
     }
@@ -309,6 +332,7 @@
     "properties": {
     "name":"Play and Yay!",
     "location":"Humboldt Ave @ Waumbeck Street",
+    "type":"Installation",
     "casestudy":"",
     "competitionyear":2018
     }
@@ -322,6 +346,7 @@
     "properties": {
     "name":"Pollinator Summer",
     "location":"Fenway Victory Gardens",
+    "type":"Installation",
     "casestudy":"",
     "competitionyear":2018
     }
@@ -335,6 +360,7 @@
     "properties": {
     "name":"Public Stage",
     "location":"Symphony Community Park",
+    "type":"Installation",
     "casestudy":"",
     "competitionyear":2016
     }
@@ -348,6 +374,7 @@
     "properties": {
     "name":"Radiant Forest",
     "location":"Mattapan Station",
+    "type":"Installation",
     "casestudy":"",
     "competitionyear":2016
     }
@@ -361,6 +388,7 @@
     "properties": {
     "name":"Stories from the Garden",
     "location":"Joe Ciampa Community Garden",
+    "type":"Installation",
     "casestudy":"",
     "competitionyear":2019
     }
@@ -374,6 +402,7 @@
     "properties": {
     "name":"Tidraphone",
     "location":"Congress St. Bridge",
+    "type":"Installation",
     "casestudy":"",
     "competitionyear":2014
     }
@@ -387,6 +416,7 @@
     "properties": {
     "name":"Words on the Street",
     "location":"Washington Street @ Archdale Road",
+    "type":"Installation",
     "casestudy":"",
     "competitionyear":2018
     }
