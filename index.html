@@ -170,12 +170,12 @@
     });
     });
 
-    d3.json("gi-locations.geojson").then(function(data){ 
+    d3.json("psi.geojson").then(function(data){ 
         var col;
         for (var i=0; i < data.features.length; i++) {
             if (data.features[i].geometry.type == "Point"){
                 var lt = data.features[i].properties.Location_Type;
-                if (lt == "School"){
+                if (lt == "Installation"){
                     col = '#ff5f4c';
                 } else if (lt == "Library") {
                     col = '#43A2CE';
@@ -187,8 +187,8 @@
 
                 const popup = new mapboxgl.Popup({ offset: 25 }).setHTML(
                 
-                    '<h3>' + data.features[i].properties.Location_Type + '</h3><h4>' +
-                     data.features[i].properties.Name + '<img src="leaf-nav.png"></h4>'
+                    '<h3>' + data.features[i].properties.location + '</h3><h4>' +
+                     data.features[i].properties.name + '<img src="leaf-nav.png"></h4>'
 
                 );
                  
