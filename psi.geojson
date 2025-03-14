@@ -1,0 +1,395 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.1352645,42.3597233 ]
+    },
+    "properties": {
+    "name":"Franklin St. Neighborway",
+    "location":"Allston, Franklin St. and Fern St.",
+    "casestudy":"Yes",
+    "competitionyear":2016
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.0791525,42.3413927 ]
+    },
+    "properties": {
+    "name":"LightWell",
+    "location":"South End Library Park",
+    "casestudy":"Yes",
+    "competitionyear":2014
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.0320007,42.379047 ]
+    },
+    "properties": {
+    "name":"Mystery Map",
+    "location":"Saratoga Street @ Prescott Street",
+    "casestudy":"Yes",
+    "competitionyear":2018
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.0611263,42.3520291 ]
+    },
+    "properties": {
+    "name":"Portable Reading Room",
+    "location":"Rose Kennedy Greenway,\nChinatown Park",
+    "casestudy":"Yes",
+    "competitionyear":2014
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.0474726,42.3522913 ]
+    },
+    "properties": {
+    "name":"Public Radio",
+    "location":"District Hall",
+    "casestudy":"Yes",
+    "competitionyear":2016
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.0951419,42.2773364 ]
+    },
+    "properties": {
+    "name":"Real People, Real Stories:\nMattapan",
+    "location":"Mattapan Branch Library",
+    "casestudy":"Yes",
+    "competitionyear":2016
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.0609144,42.3569786 ]
+    },
+    "properties": {
+    "name":"Seat Light Control",
+    "location":"Washington St. and Milk St.",
+    "casestudy":"Yes",
+    "competitionyear":2016
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.0601817,42.360406 ]
+    },
+    "properties": {
+    "name":"Stairs of Fabulousness",
+    "location":"Boston City Hall",
+    "casestudy":"Yes",
+    "competitionyear":2014
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.0984679,42.3431835 ]
+    },
+    "properties": {
+    "name":"Trailer Made",
+    "location":"Fenway Victory Gardens",
+    "casestudy":"Yes",
+    "competitionyear":2018
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.0755884,42.2949323 ]
+    },
+    "properties": {
+    "name":"Trailer Made",
+    "location":"Nightingale Community \nGarden",
+    "casestudy":"Yes",
+    "competitionyear":2018
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.1009169,42.3127499 ]
+    },
+    "properties": {
+    "name":"Trailer Made",
+    "location":"Chilcott + Granada Community\nGarden",
+    "casestudy":"Yes",
+    "competitionyear":2018
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.0984679,42.3431835 ]
+    },
+    "properties": {
+    "name":"Wheel'n Around",
+    "location":"Fenway Victory Gardens",
+    "casestudy":"Yes",
+    "competitionyear":2019
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.0907206,42.3010548 ]
+    },
+    "properties": {
+    "name":"Winter Memories: Boston",
+    "location":"Franklin Park",
+    "casestudy":"Yes",
+    "competitionyear":2019
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.0417553,42.3671567 ]
+    },
+    "properties": {
+    "name":"Winter Memories: Boston",
+    "location":"East Boston Greenway",
+    "casestudy":"Yes",
+    "competitionyear":2019
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.0396545,42.372796 ]
+    },
+    "properties": {
+    "name":"Winter Memories: Boston",
+    "location":"BCYF Paris St.",
+    "casestudy":"Yes",
+    "competitionyear":2019
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.1145168,42.297131 ]
+    },
+    "properties": {
+    "name":"All Who are Hungry",
+    "location":"Leland St. Community Garden",
+    "casestudy":"",
+    "competitionyear":2019
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.0755884,42.2949323 ]
+    },
+    "properties": {
+    "name":"Celebrate + Activate",
+    "location":"Nightingale Community \nGarden",
+    "casestudy":"",
+    "competitionyear":2018
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.0755884,42.2949323 ]
+    },
+    "properties": {
+    "name":"Cross Pollination",
+    "location":"Nightingale Community \nGarden",
+    "casestudy":"",
+    "competitionyear":2018
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.0695725,42.3010051 ]
+    },
+    "properties": {
+    "name":"Ecosonic Playground",
+    "location":"Geneva Ave @ Westville Street",
+    "casestudy":"",
+    "competitionyear":2018
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.0386949,42.3658063 ]
+    },
+    "properties": {
+    "name":"Grow Up Curious",
+    "location":"Joe Ciampa Community Garden",
+    "casestudy":"",
+    "competitionyear":2018
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.0386949,42.3658063 ]
+    },
+    "properties": {
+    "name":"KoP*",
+    "location":"Joe Ciampa Community Garden",
+    "casestudy":"",
+    "competitionyear":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.0386949,42.3658063 ]
+    },
+    "properties": {
+    "name":"LightWell v2*",
+    "location":"Joe Ciampa Community Garden",
+    "casestudy":"",
+    "competitionyear":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.0860373,42.330189 ]
+    },
+    "properties": {
+    "name":"Night Garden",
+    "location":"Bolling Building",
+    "casestudy":"",
+    "competitionyear":2016
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.0905073,42.3146107 ]
+    },
+    "properties": {
+    "name":"Play and Yay!",
+    "location":"Humboldt Ave @ Waumbeck Street",
+    "casestudy":"",
+    "competitionyear":2018
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.0984679,42.3431835 ]
+    },
+    "properties": {
+    "name":"Pollinator Summer",
+    "location":"Fenway Victory Gardens",
+    "casestudy":"",
+    "competitionyear":2018
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.0897758,42.3447736 ]
+    },
+    "properties": {
+    "name":"Public Stage",
+    "location":"Symphony Community Park",
+    "casestudy":"",
+    "competitionyear":2016
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.0940179,42.2677842 ]
+    },
+    "properties": {
+    "name":"Radiant Forest",
+    "location":"Mattapan Station",
+    "casestudy":"",
+    "competitionyear":2016
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.0386949,42.3658063 ]
+    },
+    "properties": {
+    "name":"Stories from the Garden",
+    "location":"Joe Ciampa Community Garden",
+    "casestudy":"",
+    "competitionyear":2019
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.0534938,42.351947 ]
+    },
+    "properties": {
+    "name":"Tidraphone",
+    "location":"Congress St. Bridge",
+    "casestudy":"",
+    "competitionyear":2014
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.1235897,42.2927559 ]
+    },
+    "properties": {
+    "name":"Words on the Street",
+    "location":"Washington Street @ Archdale Road",
+    "casestudy":"",
+    "competitionyear":2018
+    }
+  }
+]
+}
