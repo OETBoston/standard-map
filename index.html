@@ -8,18 +8,8 @@
   <script src='https://api.mapbox.com/mapbox-gl-js/v2.0.1/mapbox-gl.js'></script>
   <link href='https://api.mapbox.com/mapbox-gl-js/v2.0.1/mapbox-gl.css' rel='stylesheet' />
   <style>
-    body {
-      margin: 0;
-      padding: 0;
-    }
-
-    #map {
-      position: absolute;
-      top: 0;
-      bottom: 0;
-      width: 100%;
-    }
-
+    body { margin: 0; padding: 0; }
+    #map { position: absolute; top: 0; bottom: 0; width: 100%; }
     #location-filter {
       position: absolute;
       bottom: 20px;
@@ -29,43 +19,51 @@
       border-radius: 4px;
       box-shadow: 0 2px 10px rgba(0,0,0,0.1);
       z-index: 1;
-      max-width: 200px;
+      width: 180px;
     }
-
+    #location-filter .filter-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 10px;
+    }
     #location-filter label {
-      display: block;
+      display: flex;
+      align-items: center;
       margin-bottom: 5px;
       cursor: pointer;
     }
-
     #location-filter input {
       margin-right: 8px;
+    }
+    #location-filter .all-none {
+      color: blue;
+      cursor: pointer;
+      font-size: 0.8em;
     }
   </style>
 </head>
 <body>
 <div id="map"></div>
 <div id="location-filter">
-  <div><strong>Optimization Type</strong></div>
+  <div class="filter-header">
+    <strong>Optimization Type</strong>
+    <span class="all-none">
+      <span onclick="toggleAll(true)">All</span> | 
+      <span onclick="toggleAll(false)">None</span>
+    </span>
+  </div>
   <label>
-    <input type="checkbox" value="AI" checked data-color="#2ecc40"> 
-    <span style="color:#2ecc40;">■</span> AI
+    <input type="checkbox" value="Art" checked> 
+    <span style="color:blue;">■</span> Art
   </label>
   <label>
-    <input type="checkbox" value="Engineering" checked data-color="#43A2CE"> 
-    <span style="color:#43A2CE;">■</span> Engineering
+    <input type="checkbox" value="Garden" checked> 
+    <span style="color:green;">■</span> Garden
   </label>
   <label>
-    <input type="checkbox" value="Transit Signal Priority" checked data-color="#ff5f4c"> 
-    <span style="color:#ff5f4c;">■</span> Transit Signal Priority
-  </label>
-  <label>
-    <input type="checkbox" value="Fixed" checked data-color="#18a1cd"> 
-    <span style="color:#18a1cd;">■</span> Fixed
-  </label>
-  <label>
-    <input type="checkbox" value="Adaptive Signals" checked data-color="#18a1cd"> 
-    <span style="color:#18a1cd;">■</span> Adaptive Signals
+    <input type="checkbox" value="Technology" checked> 
+    <span style="color:red;">■</span> Technology
   </label>
 </div>
 
@@ -88,52 +86,41 @@
     map.scrollZoom.disable();
     map.addControl(new mapboxgl.NavigationControl(), 'bottom-right');
 
-    // Global array to store markers
     var markers = [];
 
     d3.json("psi.geojson").then(function(data){ 
-        // Create markers for each point
-        data.features.forEach(function(feature) {
+        for (var i = 0; i < data.features.length; i++) {
+            var feature = data.features[i];
             if (feature.geometry.type == "Point"){
-                var lt = feature.properties.type;
+                var lt = feature.properties.Location_Type;
                 var col;
-                if (lt == "Installation"){
-                    col = '#2ecc40';
-                } else if (lt == "Engineering") {
-                    col = '#43A2CE';
-                } else if (lt == "Transit Signal Priority") {
-                    col = '#ff5f4c';
-                } else if (lt == "Fixed") {
-                    col = '#18a1cd';
-                } else if (lt == "Adaptive Signals") {
-                    col = '#18a1cd';
+                if (lt == "Art"){
+                    col = 'blue';
+                } else if (lt == "Garden") {
+                    col = 'green';
+                } else if (lt == "Technology") {
+                    col = 'red';
                 }
-                const popup = new mapboxgl.Popup({ offset: 25 }).setHTML(
-                
-                    '<h3>' + data.features[i].properties.name + '</h3><h4>' +
-                     data.features[i].properties.location + '<img src="src="https://placehold.co/400x300"></h4>'
 
+                const popup = new mapboxgl.Popup({ offset: 25 }).setHTML(
+                    '<h3>' + feature.properties.name + '</h3><h4>' +
+                     feature.properties.location + '<img src="https://placehold.co/400x300"></h4>'
                 );
                  
-                // Create and store marker
                 const marker = new mapboxgl.Marker({ color: col, scale: .8, rotation: 0 })
                     .setPopup(popup)
                     .setLngLat(feature.geometry.coordinates)
                     .addTo(map);
                 
-                // Add custom property for filtering
-                marker.locationTypes = [lt];
+                marker.locationType = lt;
                 markers.push(marker);
             }
-        });
+        }
 
         // Add event listeners to checkboxes
         document.querySelectorAll('#location-filter input').forEach(checkbox => {
             checkbox.addEventListener('change', filterMarkers);
         });
-
-        // Initial filter setup
-        filterMarkers();
     });
 
     function filterMarkers() {
@@ -144,9 +131,7 @@
 
         // Show/hide markers based on selected types
         markers.forEach(marker => {
-            const shouldShow = marker.locationTypes.some(type => 
-                selectedTypes.includes(type)
-            );
+            const shouldShow = selectedTypes.includes(marker.locationType);
             
             if (shouldShow) {
                 marker.addTo(map);
@@ -154,6 +139,13 @@
                 marker.remove();
             }
         });
+    }
+
+    function toggleAll(selectAll) {
+        document.querySelectorAll('#location-filter input').forEach(checkbox => {
+            checkbox.checked = selectAll;
+        });
+        filterMarkers();
     }
 </script>
 </body>
