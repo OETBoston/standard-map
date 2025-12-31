@@ -6,14 +6,18 @@
   <title>Public Space Invitational Installation Sites</title>
   <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
   <script src="https://d3js.org/d3.v7.min.js"></script>    
-    <link href="https://api.mapbox.com/mapbox-gl-js/v3.17.0/mapbox-gl.css" rel="stylesheet" />
-    <script src="https://api.mapbox.com/mapbox-gl-js/v3.17.0/mapbox-gl.js"></script>
+  <link href="https://api.mapbox.com/mapbox-gl-js/v3.17.0/mapbox-gl.css" rel="stylesheet" />
+  <script src="https://api.mapbox.com/mapbox-gl-js/v3.17.0/mapbox-gl.js"></script>
   <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.4.2/mapbox-gl-geocoder.css" type="text/css">
   <script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.4.2/mapbox-gl-geocoder.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 <style>
     body {
       margin: 0;
       padding: 0;
+      font-family:"Inter","Helvetica Neue", Helvetica, Arial, sans-serif;
     }
 
     #map {
@@ -91,8 +95,7 @@
     .mapboxgl-ctrl-logo {
       display: none !important;
     }
-
-    /* Legend styles */
+  
     .legend {
       position: absolute;
       bottom: 25px;
@@ -102,6 +105,7 @@
       border-radius: 5px;
       box-shadow: 0 1px 2px rgba(0,0,0,0.1);
       font-family: 'Source Sans Pro', 'Helvetica Neue', Sans-serif;
+      color: #333;
       font-size: 13px;
       z-index: 1;
     }
