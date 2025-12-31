@@ -5,9 +5,9 @@
   <meta charset='utf-8' />
   <title>Public Space Invitational Installation Sites</title>
   <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
-  <script src="https://d3js.org/d3.v7.min.js"></script>
-  <script src='https://api.mapbox.com/mapbox-gl-js/v2.0.1/mapbox-gl.js'></script>
-  <link href='https://api.mapbox.com/mapbox-gl-js/v2.0.1/mapbox-gl.css' rel='stylesheet' />
+  <script src="https://d3js.org/d3.v7.min.js"></script>    
+    <link href="https://api.mapbox.com/mapbox-gl-js/v3.17.0/mapbox-gl.css" rel="stylesheet" />
+    <script src="https://api.mapbox.com/mapbox-gl-js/v3.17.0/mapbox-gl.js"></script>
   <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.4.2/mapbox-gl-geocoder.css" type="text/css">
   <script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.4.2/mapbox-gl-geocoder.min.js"></script>
 <style>
@@ -64,17 +64,8 @@
       color: #333;
     }
 
-    .mapboxgl-popup-content .competition {
-      background: #f0f0f0;
-      padding: 8px 10px;
-      font-size: 12px;
-      font-weight: 600;
-      color: #666;
-      text-transform: uppercase;
-      letter-spacing: 0.5px;
-    }
-
     .mapboxgl-popup-content .authors {
+      background-color: #f7f7f7;
       padding: 8px 10px;
       font-style: italic;
       color: #555;
@@ -103,7 +94,7 @@
     /* Legend styles */
     .legend {
       position: absolute;
-      bottom: 40px;
+      bottom: 25px;
       left: 10px;
       background: white;
       padding: 15px;
@@ -133,12 +124,25 @@
       margin-right: 8px;
       display: inline-block;
     }
+
+    .mapboxgl-popup-anchor-top>.mapboxgl-popup-content {
+      margin-top: 5px;
+    }
+
+    .mapboxgl-popup-anchor-bottom .mapboxgl-popup-tip {
+        border-top-color: #fff !important;
+    }
+
+    .mapboxgl-popup {
+        -webkit-filter: drop-shadow(0 0px 1px rgba(0,0,0,0.9));
+        filter: drop-shadow(0 0px 1px rgba(0,0,0,0.9));
+    }
   </style>
 </head>
 <body>
 <div id="map"></div>
 <div class="legend">
-  <h4>Project Categories</h4>
+  <h4>Categories</h4>
   <div class="legend-item">
     <span class="legend-color" style="background-color: #284384;"></span>
     <span>Pop-up Infrastructure</span>
@@ -196,7 +200,8 @@
     
     var map = new mapboxgl.Map({
       container: 'map',
-      style: 'mapbox://styles/mapbox/light-v10',
+      style: 'mapbox://styles/oetboston/cmjtixsjc007c01qs5vqd69y7',
+      //style: 'mapbox://styles/mapbox/light-v10',
       center: [-71.0616, 42.3365],
       zoom: 11,
       hash: true,
@@ -222,21 +227,20 @@
                 // Get color based on category
                 var col = getCategoryColor(props.category);
 
-                // Build popup content with category-colored header and tip styling
+                // Build popup content with category-colored header and tip styling (only for bottom/up position)
                 var popupHTML = '<style>' +
+                    // Only handle the dynamic color for the Upward pointing tip here
                     '.mapboxgl-popup-anchor-top > .mapboxgl-popup-tip { border-bottom-color: ' + col + '; }' +
-                    '.mapboxgl-popup-anchor-bottom > .mapboxgl-popup-tip { border-top-color: ' + col + '; }' +
-                    '.mapboxgl-popup-anchor-left > .mapboxgl-popup-tip { border-right-color: ' + col + '; }' +
-                    '.mapboxgl-popup-anchor-right > .mapboxgl-popup-tip { border-left-color: ' + col + '; }' +
                     '</style>' +
-                    '<h3 style="background-color: ' + col + ';">' + props.name + '</h3>' +
-                    '<div class="competition">' + props.competitiontitle + '</div>';
+                    '<h3 style="background-color: ' + col + ';">' + props.name + '</h3>';
                 
                 if (props.authors) {
                     popupHTML += '<div class="authors">By: ' + props.authors + '</div>';
                 }
                 
                 popupHTML += '<div class="description">' + props.about + '</div>';
+
+                popupHTML += '<div class="description"><strong>' + props.competitiontitle + '</strong></div>';
 
                 const popup = new mapboxgl.Popup({ offset: 25 }).setHTML(popupHTML);
                  
