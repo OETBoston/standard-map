@@ -1,0 +1,869 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.0609144,42.3569786 ]
+    },
+    "properties": {
+    "name":"Seat Light Control",
+    "year":2014,
+    "competitiontitle":"Public Space Invitational 2014",
+    "location":"Washington St. and Milk St.",
+    "type":"Installation",
+    "casestudy":"Yes",
+    "about":"Transforming a street light control box into a bench",
+    "authors":"Peter Agoos",
+    "link":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.0791525,42.3413927 ]
+    },
+    "properties": {
+    "name":"LightWell",
+    "year":2014,
+    "competitiontitle":"Public Space Invitational 2014",
+    "location":"South End Library Park",
+    "type":"Installation",
+    "casestudy":"Yes",
+    "about":"Solar-powered public seat and planter that visualizes Boston's stormwater systems through LED lights connected to real-time groundwater sensors",
+    "authors":"Michelle Laboy, Joshua Fiedler, Seth Wiseman",
+    "link":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.0386949,42.3658063 ]
+    },
+    "properties": {
+    "name":"LightWell v2*",
+    "year":2017,
+    "competitiontitle":"Public Space Invitational 2014",
+    "location":"Back Bay",
+    "type":"Installation",
+    "casestudy":"",
+    "about":"Building off of the original LightWell project, this is a citizen science project using sensor-connected well caps and a mobile app to continuously collect and visualize groundwater data citywide",
+    "authors":"Michelle Laboy, Joshua Fiedler, Seth Wiseman, Boston Groundwater Trust",
+    "link":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.0534938,42.351947 ]
+    },
+    "properties": {
+    "name":"Tidraphone",
+    "year":2014,
+    "competitiontitle":"Public Space Invitational 2014",
+    "location":"Congress St. Bridge",
+    "type":"Installation",
+    "casestudy":"",
+    "about":"Interactive tidal vibraphone installed on Congress Street Bridge that plays different melodies based on tide levels, using sound to engage the public with climate change and sea level rise",
+    "authors":"Kate Balug, Dana Busch, Alyson Fletcher, Emily Goldsmith, Conor MacDonald, Joseph Wight, Noah Vawter",
+    "link":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.0601817,42.360406 ]
+    },
+    "properties": {
+    "name":"Stairs of Fabulousness",
+    "year":2014,
+    "competitiontitle":"Public Space Invitational 2014",
+    "location":"Boston City Hall",
+    "type":"Installation",
+    "casestudy":"Yes",
+    "about":"Temporary rainbow staircase installation at Boston City Hall using fluorescent grit tape to improve safety, visibility, and fabulousness",
+    "authors":"Liz LaManche",
+    "link":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.0611263,42.3520291 ]
+    },
+    "properties": {
+    "name":"Portable Reading Room",
+    "year":2014,
+    "competitiontitle":"Public Space Invitational 2014",
+    "location":"Rose Kennedy Greenway,\nChinatown Park",
+    "type":"Installation",
+    "casestudy":"Yes",
+    "about":"Mobile library on the Rose Kennedy Greenway",
+    "authors":"Leslie Davol, Sam Davol, Höweler + Yoon Architecture, Diana Limbach Lempel",
+    "link":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.1352645,42.3597233 ]
+    },
+    "properties": {
+    "name":"Franklin St. Neighborway",
+    "year":2016,
+    "competitiontitle":"Public Space Invitational 2016",
+    "location":"Allston, Franklin St. and Fern St.",
+    "type":"Installation",
+    "casestudy":"Yes",
+    "about":"Street Mural on Franklin St. in Allston",
+    "authors":"Mark Chase, Michelle Moon, Ross Miller, Jessica Robertson, Galen Mook, Emma Walters, Harry Mattison, John Powell, Lea Beaulieu, Paola Ferrer, Tim McHale",
+    "link":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.0860373,42.330189 ]
+    },
+    "properties": {
+    "name":"Night Garden",
+    "year":2016,
+    "competitiontitle":"Public Space Invitational 2016",
+    "location":"Bruce Bolling Building",
+    "type":"Installation",
+    "casestudy":"",
+    "about":"Activating Boston's community gardens with outdoor light installations for evening gatherings and artistic expression, extending garden hours",
+    "authors":"Ethan Vogt",
+    "link":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.0897758,42.3447736 ]
+    },
+    "properties": {
+    "name":"Public Stage",
+    "year":2016,
+    "competitiontitle":"Public Space Invitational 2016",
+    "location":"Symphony Community Park",
+    "type":"Installation",
+    "casestudy":"",
+    "about":"Installation of a sound system at Symphony Community Park to stream live performances from the Boston Symphony Orchestra  with synchronized light displays during summer and fall evenings.",
+    "authors":"Liat Racin, Matan Mayer, Mariko Davidson, Christiana Usenza, Alon Dagan",
+    "link":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.0474726,42.3522913 ]
+    },
+    "properties": {
+    "name":"Public Radio",
+    "year":2016,
+    "competitiontitle":"Public Space Invitational 2016",
+    "location":"District Hall",
+    "type":"Installation",
+    "casestudy":"Yes",
+    "about":"Giant radio for all at District Hall",
+    "authors":"New American Public Art (Dan Sternof Beyer, Greg MacGlashing, Bevan Weissman) and Andrew Ringler",
+    "link":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.0951419,42.2773364 ]
+    },
+    "properties": {
+    "name":"Real People, Real Stories:\nMattapan",
+    "year":2016,
+    "competitiontitle":"Public Space Invitational 2016",
+    "location":"Mattapan Branch Library",
+    "type":"Installation",
+    "casestudy":"Yes",
+    "about":"Poem and Photography series in the windows of the Mattapan Branch Library",
+    "authors":"Danielle Legros Georges, Jennifer Waddell",
+    "link":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.0386949,42.3658063 ]
+    },
+    "properties": {
+    "name":"Kit of Parks",
+    "year":2016,
+    "competitiontitle":"Kaboom! Play Everywhere Challenge",
+    "location":"Franklin Park",
+    "type":"Installation",
+    "casestudy":"Yes",
+    "about":"Portable kit of parts to build a park that unpacks in under five minutes to activate underutilized public spaces",
+    "authors":"Nina Chase, Philip Dugdale",
+    "link":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.0940179,42.2677842 ]
+    },
+    "properties": {
+    "name":"Radiant Forest",
+    "year":2016,
+    "competitiontitle":"Public Space Invitational 2019",
+    "location":"Mattapan Station",
+    "type":"Installation",
+    "casestudy":"",
+    "about":"Translucent colored screens on a bus shelter creating a dappled forest canopy effect that filters light and evolves throughout the day and seasons",
+    "authors":"Sasaki (Ryan Collier, Chris Freda, Anthony Lawson, Jhanéa Williams)",
+    "link":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.0320007,42.379047 ]
+    },
+    "properties": {
+    "name":"Mystery Map",
+    "year":2018,
+    "competitiontitle":"Play Around the City",
+    "location":"Saratoga Street @ Prescott Street",
+    "type":"Installation",
+    "casestudy":"Yes",
+    "about":"Sidewalk mural as a puzzle in East Boston",
+    "authors":"Liz LaManche",
+    "link":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.0695725,42.3010051 ]
+    },
+    "properties": {
+    "name":"Ecosonic Playground",
+    "year":2018,
+    "competitiontitle":"Play Around the City",
+    "location":"Geneva Ave @ Westville Street",
+    "type":"Installation",
+    "casestudy":"",
+    "about":"Musical installation featuring instruments inspired by Vietnamese folk traditions installed near corner school bus stops",
+    "authors":"Elissa Johnson Green, Anthony Beatrice",
+    "link":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.0905073,42.3146107 ]
+    },
+    "properties": {
+    "name":"Play and Yay!",
+    "year":2018,
+    "competitiontitle":"Play Around the City",
+    "location":"Humboldt Ave @ Waumbeck Street",
+    "type":"Installation",
+    "casestudy":"",
+    "about":"520-square-foot painted sidewalk installation at the Trotter School designed as a large-scale coloring book where visitors add chalk designs and follow interconnected paths",
+    "authors":"Lisa Jeanne Graf, Mayor's Mural Crew",
+    "link":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.1235897,42.2927559 ]
+    },
+    "properties": {
+    "name":"Words on the Street",
+    "year":2018,
+    "competitiontitle":"Play Around the City",
+    "location":"Washington Street @ Archdale Road",
+    "type":"Installation",
+    "casestudy":"",
+    "about":"Three spinning prize wheels with bilingual words that combine to create phrases for creative play and language learning in Roslindale",
+    "authors":"Roslindale Wants to Play",
+    "link":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.0984679,42.3431835 ]
+    },
+    "properties": {
+    "name":"Trailer Made",
+    "year":2018,
+    "competitiontitle":"Public Space Invitational 2018",
+    "location":"Fenway Victory Gardens",
+    "type":"Installation",
+    "casestudy":"Yes",
+    "about":"Pop-up community space at Fenway Victory Gardens",
+    "authors":"Rob Barella, Andrea Barella",
+    "link":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.0755884,42.2949323 ]
+    },
+    "properties": {
+    "name":"Trailer Made",
+    "year":2018,
+    "competitiontitle":"Public Space Invitational 2018",
+    "location":"Nightingale Community \nGarden",
+    "type":"Installation",
+    "casestudy":"Yes",
+    "about":"Pop-up community space at Fenway Victory Gardens",
+    "authors":"Rob Barella, Andrea Barella",
+    "link":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.1009169,42.3127499 ]
+    },
+    "properties": {
+    "name":"Trailer Made",
+    "year":2018,
+    "competitiontitle":"Public Space Invitational 2018",
+    "location":"Chilcott + Granada Community\nGarden",
+    "type":"Installation",
+    "casestudy":"Yes",
+    "about":"Pop-up community space at Fenway Victory Gardens",
+    "authors":"Rob Barella, Andrea Barella",
+    "link":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.0907206,42.3010548 ]
+    },
+    "properties": {
+    "name":"Winter Memories: Boston",
+    "year":2019,
+    "competitiontitle":"Play Around the Snowy City",
+    "location":"Franklin Park",
+    "type":"Installation",
+    "casestudy":"Yes",
+    "about":"Pop-up recording studio to share winter stories",
+    "authors":"Krina Patel",
+    "link":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.0417553,42.3671567 ]
+    },
+    "properties": {
+    "name":"Winter Memories: Boston",
+    "year":2019,
+    "competitiontitle":"Play Around the Snowy City",
+    "location":"East Boston Greenway",
+    "type":"Installation",
+    "casestudy":"Yes",
+    "about":"Pop-up recording studio to share winter stories",
+    "authors":"Krina Patel",
+    "link":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.0396545,42.372796 ]
+    },
+    "properties": {
+    "name":"Winter Memories: Boston",
+    "year":2019,
+    "competitiontitle":"Play Around the Snowy City",
+    "location":"BCYF Paris St.",
+    "type":"Installation",
+    "casestudy":"Yes",
+    "about":"Pop-up recording studio to share winter stories",
+    "authors":"Krina Patel",
+    "link":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.0755884,42.2949323 ]
+    },
+    "properties": {
+    "name":"Celebrate + Activate",
+    "year":2018,
+    "competitiontitle":"Public Space Invitational (Community Gardens)",
+    "location":"Nightingale Community \nGarden",
+    "type":"Installation",
+    "casestudy":"",
+    "about":"Renovating Nightingale Community Garden's compost area while celebrating gardeners' cultural heritage through interactive theatre",
+    "authors":"Melissa Nussbaum, Ayako Maruyama, Maria Hendricks, Raquel Saenz, Adilson Barros, Dana Watkins, Prema Bangera, Sonya Joyner",
+    "link":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.0755884,42.2949323 ]
+    },
+    "properties": {
+    "name":"Cross Pollination",
+    "year":2018,
+    "competitiontitle":"Public Space Invitational (Community Gardens)",
+    "location":"Nightingale Community \nGarden",
+    "type":"Installation",
+    "casestudy":"",
+    "about":"\"Pollinator-Pots\" combined native flowers for pollinators with sculptural shade structures featuring poetic messages to connect gardeners, wildlife, and residents",
+    "authors":"Claudia Paraschiv, Annie Scott, Azia Carle",
+    "link":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.1145168,42.297131 ]
+    },
+    "properties": {
+    "name":"All Who are Hungry",
+    "year":2019,
+    "competitiontitle":"Public Space Invitational (Community Gardens)",
+    "location":"Leland St. Community Garden",
+    "type":"Installation",
+    "casestudy":"",
+    "about":"Community dinner series with custom dinner table at a community garden",
+    "authors":"Jennie Halperin, Alex Auriema",
+    "link":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.0386949,42.3658063 ]
+    },
+    "properties": {
+    "name":"Grow Up Curious",
+    "year":2019,
+    "competitiontitle":"Public Space Invitational (Community Gardens)",
+    "location":"Joe Ciampa Community Garden",
+    "type":"Installation",
+    "casestudy":"",
+    "about":"Interactive sensory garden featuring immersive single-sense planters that teach children and families about plants through playful exploration",
+    "authors":"Emeline Gaujac, Naomi Sherman",
+    "link":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.0984679,42.3431835 ]
+    },
+    "properties": {
+    "name":"Pollinator Summer",
+    "year":2019,
+    "competitiontitle":"Public Space Invitational (Community Gardens)",
+    "location":"Fenway Victory Gardens",
+    "type":"Installation",
+    "casestudy":"",
+    "about":"Interactive exhibit and event series at Fenway Victory Gardens educating visitors about pollinators and why they are essential to ecosystems and food systems",
+    "authors":"Qian Mei, Mike Gajda",
+    "link":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.0386949,42.3658063 ]
+    },
+    "properties": {
+    "name":"Stories from the Garden",
+    "year":2019,
+    "competitiontitle":"Public Space Invitational (Community Gardens)",
+    "location":"Joe Ciampa Community Garden",
+    "type":"Installation",
+    "casestudy":"",
+    "about":"Event series preserving neighborhood oral histories through songwriting workshops, writing workshops, community murals, and a live-recorded open mic performance",
+    "authors":"Anaís Azul, Dzidor Azaglo, Kim Barzola, Hassan Ghanny, Sofía Perez, Stephanie Houten, Cameron Hawkins",
+    "link":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.0984679,42.3431835 ]
+    },
+    "properties": {
+    "name":"Wheel'n Around",
+    "year":2019,
+    "competitiontitle":"Public Space Invitational (Community Gardens)",
+    "location":"Fenway Victory Gardens",
+    "type":"Installation",
+    "casestudy":"Yes",
+    "about":"Mobile installation using modified wheelbarrows and pallets to create gathering spaces that spark creativity and teach people about urban agriculture",
+    "authors":"Rob Barella, Andrea Barella",
+    "link":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.07545995,42.32596188 ]
+    },
+    "properties": {
+    "name":"JennyMae Kho and Brianna Asbury Custom Planters and Bird Houses",
+    "year":2020,
+    "competitiontitle":"Public Space Invitational (Community Gardens)",
+    "location":"El Jardín de la Amistad",
+    "type":"Installation",
+    "casestudy":"",
+    "about":"Artistic planters and birdhouses with seasonal plants provided by The Trustees",
+    "authors":"JennyMae Kho, Brianna Asbury",
+    "link":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.0755884,42.2949323 ]
+    },
+    "properties": {
+    "name":"Dorchester Art Project Custom Planters and Bird Houses",
+    "year":2020,
+    "competitiontitle":"Public Space Invitational (Community Gardens)",
+    "location":"Nightingale Community \nGarden",
+    "type":"Installation",
+    "casestudy":"",
+    "about":"Artistic planters and birdhouses with seasonal plants provided by The Trustees",
+    "authors":"Dorchester Art Project",
+    "link":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.07545995,42.32596188 ]
+    },
+    "properties": {
+    "name":"Chanel Thervil Custom Planers and Bird Houses",
+    "year":2020,
+    "competitiontitle":"Public Space Invitational (Community Gardens)",
+    "location":"El Jardín de la Amistad",
+    "type":"Installation",
+    "casestudy":"",
+    "about":"Artistic planters and birdhouses with seasonal plants provided by The Trustees",
+    "authors":"Chanel Thervil",
+    "link":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.0755884,42.2949323 ]
+    },
+    "properties": {
+    "name":"Tran Vu Custom Planters and Bird Houses",
+    "year":2020,
+    "competitiontitle":"Public Space Invitational (Community Gardens)",
+    "location":"Nightingale Community Garden",
+    "type":"Installation",
+    "casestudy":"",
+    "about":"Artistic planters and birdhouses with seasonal plants provided by The Trustees",
+    "authors":"Tran Vu",
+    "link":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.07897969,42.34390195 ]
+    },
+    "properties": {
+    "name":"Julie Ann Otis Custom Planers and Bird Houses",
+    "year":2020,
+    "competitiontitle":"Public Space Invitational (Community Gardens)",
+    "location":"Titus Sparrow Park",
+    "type":"Installation",
+    "casestudy":"",
+    "about":"Artistic planters and birdhouses with seasonal plants provided by The Trustees",
+    "authors":"Julie Ann Otis",
+    "link":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "name":"Compost, Not Trash (Song)",
+    "year":2022,
+    "competitiontitle":"Public Space Invitational (Community Compost)",
+    "location":"NA",
+    "type":"Music Composition",
+    "casestudy":"",
+    "about":"Educational song about community compost",
+    "authors":"Cliff Notez and Will Dailey",
+    "link":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.07084954,42.28766245 ]
+    },
+    "properties": {
+    "name":"The Compostry: The Art of Composting",
+    "year":2022,
+    "competitiontitle":"Public Space Invitational (Community Compost)",
+    "location":"Codman Square Branch, Boston Public Library",
+    "type":"Installation",
+    "casestudy":"",
+    "about":"Custom community compost bin with metal panels of compostable items.",
+    "authors":"Claudia Paraschiv, Azia Carle, Scott Lanes",
+    "link":"https://www.studiofuldesign.com/work-1#/compostry-bin/"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.0958122,42.3141315 ]
+    },
+    "properties": {
+    "name":"Lusterity Community Compost Design",
+    "year":2022,
+    "competitiontitle":"Public Space Invitational (Community Compost)",
+    "location":"Egleston Branch Library",
+    "type":"Installation",
+    "casestudy":"",
+    "about":"Custom community compost bin with educational signage to improve accessible and provide bins with a unique visual identity",
+    "authors":"Sierra Rothberg",
+    "link":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.05398341,42.36541604 ]
+    },
+    "properties": {
+    "name":"Yenny Hernandez Community Compost Design",
+    "year":2022,
+    "competitiontitle":"Public Space Invitational (Community Compost)",
+    "location":"BCYF Nazzaro (North End community center)",
+    "type":"Installation",
+    "casestudy":"",
+    "about":"Part of Project Oscar's expansion to customize community compost bins across Boston addressing visual identity, accessibility, and contamination challenges",
+    "authors":"Yenny Hernandez",
+    "link":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.066994,42.375372 ]
+    },
+    "properties": {
+    "name":"Yenny Hernandez Community Compost Design",
+    "year":2022,
+    "competitiontitle":"Public Space Invitational (Community Compost)",
+    "location":"Bunker Hill Mall (Charlestown)",
+    "type":"Installation",
+    "casestudy":"",
+    "about":"Part of Project Oscar's expansion to customize community compost bins across Boston addressing visual identity, accessibility, and contamination challenges",
+    "authors":"Yenny Hernandez",
+    "link":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.09823964,42.332337 ]
+    },
+    "properties": {
+    "name":"Yenny Hernandez Community Compost Design",
+    "year":2022,
+    "competitiontitle":"Public Space Invitational (Community Compost)",
+    "location":"Tobin Community Center",
+    "type":"Installation",
+    "casestudy":"",
+    "about":"Part of Project Oscar's expansion to customize community compost bins across Boston addressing visual identity, accessibility, and contamination challenges",
+    "authors":"Yenny Hernandez",
+    "link":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.0770389,42.34155127 ]
+    },
+    "properties": {
+    "name":"Maya Erdelyi Community Compost Design",
+    "year":2022,
+    "competitiontitle":"Public Space Invitational (Community Compost)",
+    "location":"South End Branch Library",
+    "type":"Installation",
+    "casestudy":"",
+    "about":"Part of Project Oscar's expansion to customize community compost bins across Boston addressing visual identity, accessibility, and contamination challenges",
+    "authors":"Maya Erdelyi",
+    "link":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.04645935,42.33658929 ]
+    },
+    "properties": {
+    "name":"Grace Julian-Murthy Community Compost Design",
+    "year":2022,
+    "competitiontitle":"Public Space Invitational (Community Compost)",
+    "location":"450 W. Broadway (South Boston)",
+    "type":"Installation",
+    "casestudy":"",
+    "about":"Part of Project Oscar's expansion to customize community compost bins across Boston addressing visual identity, accessibility, and contamination challenges",
+    "authors":"Grace Julian-Murthy",
+    "link":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.06664328,42.30115319 ]
+    },
+    "properties": {
+    "name":"Jemuel Stephenson Community Compost Design",
+    "year":2022,
+    "competitiontitle":"Public Space Invitational (Community Compost)",
+    "location":"Hero Hope Garden",
+    "type":"Installation",
+    "casestudy":"",
+    "about":"Part of Project Oscar's expansion to customize community compost bins across Boston addressing visual identity, accessibility, and contamination challenges",
+    "authors":"Jemuel Stephenson",
+    "link":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.08290126,42.32840627 ]
+    },
+    "properties": {
+    "name":"Little by Little",
+    "year":2023,
+    "competitiontitle":"Public Space Invitational (Green Infrastructure)",
+    "location":"Roxbury Branch Library",
+    "type":"Installation",
+    "casestudy":"",
+    "about":"Tiered wetland installation inspired by the Rube Goldberg-Machine: imagine a three-part raised rain garden that visualizes water filtration processes through plexiglass windows, highlighting green infrastructure's role in mitigating flooding and heat.",
+    "authors":"SMaLL Design -- Maitlyn Lang, Sonny Xu, Jialei Tang, Liz Cormack, Madeleine Levin",
+    "link":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.027915,42.31430604 ]
+    },
+    "properties": {
+    "name":"Little by Little",
+    "year":2023,
+    "competitiontitle":"Public Space Invitational (Green Infrastructure)",
+    "location":"East Boston Branch Library",
+    "type":"Installation",
+    "casestudy":"",
+    "about":"Tiered wetland installation inspired by the Rube Goldberg-Machine: imagine a three part raised rain garden that visualizes water filtration processes through plexiglass windows, highlighting green infrastructure's role in mitigating flooding and heat.",
+    "authors":"SMaLL Design -- Maitlyn Lang, Sonny Xu, Jialei Tang, Liz Cormack, Madeleine Levin",
+    "link":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.09002325,42.28230749 ]
+    },
+    "properties": {
+    "name":"Cooking Together",
+    "year":2023,
+    "competitiontitle":"Public Space Invitational (Green Infrastructure)",
+    "location":"Woolson Street Community Garden",
+    "type":"Installation",
+    "casestudy":"",
+    "about":"Portable pop-up kitchen for Boston community gardens, designed by architecture and urban planning students",
+    "authors":"Justin Brazier, Sheila Kennedy, CJ Valerus, Calvin Zhong, Narah Deeb",
+    "link":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.09803614,42.31402967 ]
+    },
+    "properties": {
+    "name":"El Agua es Vida",
+    "year":2023,
+    "competitiontitle":"Public Space Invitational (Green Infrastructure)",
+    "location":"Rafael Hernandez School",
+    "type":"Installation",
+    "casestudy":"",
+    "about":"Rebuilding the Hernandez School rain garden with native plants and interactive signage connecting the community to stormwater systems.",
+    "authors":"Carolyn Lewenberg",
+    "link":""
+    }
+  }
+]
+}
