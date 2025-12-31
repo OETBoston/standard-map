@@ -221,6 +221,8 @@
     map.scrollZoom.disable();
     
     map.addControl(new mapboxgl.NavigationControl(), 'bottom-right');
+    
+    map.addControl(new mapboxgl.FullscreenControl(), 'bottom-right');
 
     d3.json("sites.geojson").then(function(data){ 
         for (var i=0; i < data.features.length; i++) {
@@ -247,7 +249,7 @@
 
                 //popupHTML += '<div class="description"><strong>' + props.competitiontitle + '</strong></div>';
 
-                const popup = new mapboxgl.Popup({ offset: 25 }).setHTML(popupHTML);
+                const popup = new mapboxgl.Popup({ offset: 10 }).setHTML(popupHTML);
                  
                 new mapboxgl.Marker({ color: col, scale: .8, rotation: 0 })
                 .setPopup(popup)
