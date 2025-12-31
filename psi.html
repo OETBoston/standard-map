@@ -214,8 +214,9 @@
     });
 
     map.addControl(new mapboxgl.AttributionControl({
-      customAttribution: "OET Boston"
-    }));
+      compact: false,
+      customAttribution: 'OETBoston'
+    }), 'bottom-right');
     
     map.scrollZoom.disable();
     
