@@ -10,6 +10,7 @@
     "properties": {
     "name":"Seat Light Control",
     "year":2014,
+    "category":"Reinventing Infrastructure",
     "competitiontitle":"Public Space Invitational 2014",
     "location":"Washington St. and Milk St.",
     "type":"Installation",
@@ -28,6 +29,7 @@
     "properties": {
     "name":"LightWell",
     "year":2014,
+    "category":"Reinventing Infrastructure",
     "competitiontitle":"Public Space Invitational 2014",
     "location":"South End Library Park",
     "type":"Installation",
@@ -46,6 +48,7 @@
     "properties": {
     "name":"LightWell v2*",
     "year":2017,
+    "category":"Reinventing Infrastructure",
     "competitiontitle":"Public Space Invitational 2014",
     "location":"Back Bay",
     "type":"Installation",
@@ -64,6 +67,7 @@
     "properties": {
     "name":"Tidraphone",
     "year":2014,
+    "category":"Simple Tools, Simple Materials",
     "competitiontitle":"Public Space Invitational 2014",
     "location":"Congress St. Bridge",
     "type":"Installation",
@@ -82,6 +86,7 @@
     "properties": {
     "name":"Stairs of Fabulousness",
     "year":2014,
+    "category":"Simple Tools, Simple Materials",
     "competitiontitle":"Public Space Invitational 2014",
     "location":"Boston City Hall",
     "type":"Installation",
@@ -100,6 +105,7 @@
     "properties": {
     "name":"Portable Reading Room",
     "year":2014,
+    "category":"Pop-up Infrastructure",
     "competitiontitle":"Public Space Invitational 2014",
     "location":"Rose Kennedy Greenway,\nChinatown Park",
     "type":"Installation",
@@ -118,6 +124,7 @@
     "properties": {
     "name":"Franklin St. Neighborway",
     "year":2016,
+    "category":"Simple Tools, Simple Materials",
     "competitiontitle":"Public Space Invitational 2016",
     "location":"Allston, Franklin St. and Fern St.",
     "type":"Installation",
@@ -136,6 +143,7 @@
     "properties": {
     "name":"Night Garden",
     "year":2016,
+    "category":"Green Infrastructure",
     "competitiontitle":"Public Space Invitational 2016",
     "location":"Bruce Bolling Building",
     "type":"Installation",
@@ -154,6 +162,7 @@
     "properties": {
     "name":"Public Stage",
     "year":2016,
+    "category":"Technology + Participation",
     "competitiontitle":"Public Space Invitational 2016",
     "location":"Symphony Community Park",
     "type":"Installation",
@@ -172,6 +181,7 @@
     "properties": {
     "name":"Public Radio",
     "year":2016,
+    "category":"Technology + Participation",
     "competitiontitle":"Public Space Invitational 2016",
     "location":"District Hall",
     "type":"Installation",
@@ -190,6 +200,7 @@
     "properties": {
     "name":"Real People, Real Stories:\nMattapan",
     "year":2016,
+    "category":"Storytelling + History",
     "competitiontitle":"Public Space Invitational 2016",
     "location":"Mattapan Branch Library",
     "type":"Installation",
@@ -208,6 +219,7 @@
     "properties": {
     "name":"Kit of Parks",
     "year":2016,
+    "category":"Pop-up Infrastructure",
     "competitiontitle":"Kaboom! Play Everywhere Challenge",
     "location":"Franklin Park",
     "type":"Installation",
@@ -226,6 +238,7 @@
     "properties": {
     "name":"Radiant Forest",
     "year":2016,
+    "category":"Simple Tools, Simple Materials",
     "competitiontitle":"Public Space Invitational 2019",
     "location":"Mattapan Station",
     "type":"Installation",
@@ -244,6 +257,7 @@
     "properties": {
     "name":"Mystery Map",
     "year":2018,
+    "category":"Simple Tools, Simple Materials",
     "competitiontitle":"Play Around the City",
     "location":"Saratoga Street @ Prescott Street",
     "type":"Installation",
@@ -262,6 +276,7 @@
     "properties": {
     "name":"Ecosonic Playground",
     "year":2018,
+    "category":"Simple Tools, Simple Materials",
     "competitiontitle":"Play Around the City",
     "location":"Geneva Ave @ Westville Street",
     "type":"Installation",
@@ -280,6 +295,7 @@
     "properties": {
     "name":"Play and Yay!",
     "year":2018,
+    "category":"Simple Tools, Simple Materials",
     "competitiontitle":"Play Around the City",
     "location":"Humboldt Ave @ Waumbeck Street",
     "type":"Installation",
@@ -298,6 +314,7 @@
     "properties": {
     "name":"Words on the Street",
     "year":2018,
+    "category":"Simple Tools, Simple Materials",
     "competitiontitle":"Play Around the City",
     "location":"Washington Street @ Archdale Road",
     "type":"Installation",
@@ -316,6 +333,7 @@
     "properties": {
     "name":"Trailer Made",
     "year":2018,
+    "category":"Pop-up Infrastructure",
     "competitiontitle":"Public Space Invitational 2018",
     "location":"Fenway Victory Gardens",
     "type":"Installation",
@@ -334,6 +352,7 @@
     "properties": {
     "name":"Trailer Made",
     "year":2018,
+    "category":"Pop-up Infrastructure",
     "competitiontitle":"Public Space Invitational 2018",
     "location":"Nightingale Community \nGarden",
     "type":"Installation",
@@ -352,6 +371,7 @@
     "properties": {
     "name":"Trailer Made",
     "year":2018,
+    "category":"Pop-up Infrastructure",
     "competitiontitle":"Public Space Invitational 2018",
     "location":"Chilcott + Granada Community\nGarden",
     "type":"Installation",
@@ -370,6 +390,7 @@
     "properties": {
     "name":"Winter Memories: Boston",
     "year":2019,
+    "category":"Storytelling + History",
     "competitiontitle":"Play Around the Snowy City",
     "location":"Franklin Park",
     "type":"Installation",
@@ -388,6 +409,7 @@
     "properties": {
     "name":"Winter Memories: Boston",
     "year":2019,
+    "category":"Storytelling + History",
     "competitiontitle":"Play Around the Snowy City",
     "location":"East Boston Greenway",
     "type":"Installation",
@@ -406,6 +428,7 @@
     "properties": {
     "name":"Winter Memories: Boston",
     "year":2019,
+    "category":"Storytelling + History",
     "competitiontitle":"Play Around the Snowy City",
     "location":"BCYF Paris St.",
     "type":"Installation",
@@ -424,6 +447,7 @@
     "properties": {
     "name":"Celebrate + Activate",
     "year":2018,
+    "category":"Green Infrastructure",
     "competitiontitle":"Public Space Invitational (Community Gardens)",
     "location":"Nightingale Community \nGarden",
     "type":"Installation",
@@ -442,6 +466,7 @@
     "properties": {
     "name":"Cross Pollination",
     "year":2018,
+    "category":"Green Infrastructure",
     "competitiontitle":"Public Space Invitational (Community Gardens)",
     "location":"Nightingale Community \nGarden",
     "type":"Installation",
@@ -460,6 +485,7 @@
     "properties": {
     "name":"All Who are Hungry",
     "year":2019,
+    "category":"Green Infrastructure",
     "competitiontitle":"Public Space Invitational (Community Gardens)",
     "location":"Leland St. Community Garden",
     "type":"Installation",
@@ -478,6 +504,7 @@
     "properties": {
     "name":"Grow Up Curious",
     "year":2019,
+    "category":"Green Infrastructure",
     "competitiontitle":"Public Space Invitational (Community Gardens)",
     "location":"Joe Ciampa Community Garden",
     "type":"Installation",
@@ -496,6 +523,7 @@
     "properties": {
     "name":"Pollinator Summer",
     "year":2019,
+    "category":"Green Infrastructure",
     "competitiontitle":"Public Space Invitational (Community Gardens)",
     "location":"Fenway Victory Gardens",
     "type":"Installation",
@@ -514,6 +542,7 @@
     "properties": {
     "name":"Stories from the Garden",
     "year":2019,
+    "category":"Storytelling + History",
     "competitiontitle":"Public Space Invitational (Community Gardens)",
     "location":"Joe Ciampa Community Garden",
     "type":"Installation",
@@ -532,6 +561,7 @@
     "properties": {
     "name":"Wheel'n Around",
     "year":2019,
+    "category":"Pop-up Infrastructure",
     "competitiontitle":"Public Space Invitational (Community Gardens)",
     "location":"Fenway Victory Gardens",
     "type":"Installation",
@@ -550,6 +580,7 @@
     "properties": {
     "name":"JennyMae Kho and Brianna Asbury Custom Planters and Bird Houses",
     "year":2020,
+    "category":"Green Infrastructure",
     "competitiontitle":"Public Space Invitational (Community Gardens)",
     "location":"El Jardín de la Amistad",
     "type":"Installation",
@@ -568,6 +599,7 @@
     "properties": {
     "name":"Dorchester Art Project Custom Planters and Bird Houses",
     "year":2020,
+    "category":"Green Infrastructure",
     "competitiontitle":"Public Space Invitational (Community Gardens)",
     "location":"Nightingale Community \nGarden",
     "type":"Installation",
@@ -586,6 +618,7 @@
     "properties": {
     "name":"Chanel Thervil Custom Planers and Bird Houses",
     "year":2020,
+    "category":"Green Infrastructure",
     "competitiontitle":"Public Space Invitational (Community Gardens)",
     "location":"El Jardín de la Amistad",
     "type":"Installation",
@@ -604,6 +637,7 @@
     "properties": {
     "name":"Tran Vu Custom Planters and Bird Houses",
     "year":2020,
+    "category":"Green Infrastructure",
     "competitiontitle":"Public Space Invitational (Community Gardens)",
     "location":"Nightingale Community Garden",
     "type":"Installation",
@@ -622,6 +656,7 @@
     "properties": {
     "name":"Julie Ann Otis Custom Planers and Bird Houses",
     "year":2020,
+    "category":"Green Infrastructure",
     "competitiontitle":"Public Space Invitational (Community Gardens)",
     "location":"Titus Sparrow Park",
     "type":"Installation",
@@ -640,6 +675,7 @@
     "properties": {
     "name":"Compost, Not Trash (Song)",
     "year":2022,
+    "category":"Green Infrastructure",
     "competitiontitle":"Public Space Invitational (Community Compost)",
     "location":"NA",
     "type":"Music Composition",
@@ -658,6 +694,7 @@
     "properties": {
     "name":"The Compostry: The Art of Composting",
     "year":2022,
+    "category":"Green Infrastructure",
     "competitiontitle":"Public Space Invitational (Community Compost)",
     "location":"Codman Square Branch, Boston Public Library",
     "type":"Installation",
@@ -676,6 +713,7 @@
     "properties": {
     "name":"Lusterity Community Compost Design",
     "year":2022,
+    "category":"Green Infrastructure",
     "competitiontitle":"Public Space Invitational (Community Compost)",
     "location":"Egleston Branch Library",
     "type":"Installation",
@@ -694,6 +732,7 @@
     "properties": {
     "name":"Yenny Hernandez Community Compost Design",
     "year":2022,
+    "category":"Green Infrastructure",
     "competitiontitle":"Public Space Invitational (Community Compost)",
     "location":"BCYF Nazzaro (North End community center)",
     "type":"Installation",
@@ -712,6 +751,7 @@
     "properties": {
     "name":"Yenny Hernandez Community Compost Design",
     "year":2022,
+    "category":"Green Infrastructure",
     "competitiontitle":"Public Space Invitational (Community Compost)",
     "location":"Bunker Hill Mall (Charlestown)",
     "type":"Installation",
@@ -730,6 +770,7 @@
     "properties": {
     "name":"Yenny Hernandez Community Compost Design",
     "year":2022,
+    "category":"Green Infrastructure",
     "competitiontitle":"Public Space Invitational (Community Compost)",
     "location":"Tobin Community Center",
     "type":"Installation",
@@ -748,6 +789,7 @@
     "properties": {
     "name":"Maya Erdelyi Community Compost Design",
     "year":2022,
+    "category":"Green Infrastructure",
     "competitiontitle":"Public Space Invitational (Community Compost)",
     "location":"South End Branch Library",
     "type":"Installation",
@@ -766,6 +808,7 @@
     "properties": {
     "name":"Grace Julian-Murthy Community Compost Design",
     "year":2022,
+    "category":"Green Infrastructure",
     "competitiontitle":"Public Space Invitational (Community Compost)",
     "location":"450 W. Broadway (South Boston)",
     "type":"Installation",
@@ -784,6 +827,7 @@
     "properties": {
     "name":"Jemuel Stephenson Community Compost Design",
     "year":2022,
+    "category":"Green Infrastructure",
     "competitiontitle":"Public Space Invitational (Community Compost)",
     "location":"Hero Hope Garden",
     "type":"Installation",
@@ -802,6 +846,7 @@
     "properties": {
     "name":"Little by Little",
     "year":2023,
+    "category":"Green Infrastructure",
     "competitiontitle":"Public Space Invitational (Green Infrastructure)",
     "location":"Roxbury Branch Library",
     "type":"Installation",
@@ -820,6 +865,7 @@
     "properties": {
     "name":"Little by Little",
     "year":2023,
+    "category":"Green Infrastructure",
     "competitiontitle":"Public Space Invitational (Green Infrastructure)",
     "location":"East Boston Branch Library",
     "type":"Installation",
@@ -838,6 +884,7 @@
     "properties": {
     "name":"Cooking Together",
     "year":2023,
+    "category":"Green Infrastructure",
     "competitiontitle":"Public Space Invitational (Green Infrastructure)",
     "location":"Woolson Street Community Garden",
     "type":"Installation",
@@ -856,6 +903,7 @@
     "properties": {
     "name":"El Agua es Vida",
     "year":2023,
+    "category":"Green Infrastructure",
     "competitiontitle":"Public Space Invitational (Green Infrastructure)",
     "location":"Rafael Hernandez School",
     "type":"Installation",
