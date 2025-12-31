@@ -47,8 +47,7 @@
     }
 
     .mapboxgl-popup-content h3 {
-      background: linear-gradient(to right, #9fe182, #e9f4af);
-      color: #272626;
+      color: #fff;
       margin: 0;
       display: block;
       padding: 15px;
@@ -98,7 +97,7 @@
     }
 
     .mapboxgl-popup-anchor-top>.mapboxgl-popup-tip {
-      border-bottom-color: #9fe182;
+      border-bottom-color: #284384;
     }
     
     .mapboxgl-ctrl-geocoder {
@@ -123,6 +122,19 @@
       };
     };
 
+    // Category color mapping
+    function getCategoryColor(category) {
+      const colors = {
+        'Pop-up Infrastructure': '#284384',
+        'Technology + Participation': '#4e9bb8',
+        'Simple Tools, Simple Materials': '#2A644D',
+        'Storytelling + History': '#3c8c99',
+        'Reinventing Infrastructure': '#452d88',
+        'Green Infrastructure': '#3D9970'
+      };
+      return colors[category] || '#666666'; // default gray if category not found
+    }
+
     mapboxgl.accessToken = 'pk.eyJ1Ijoib2V0Ym9zdG9uIiwiYSI6ImNtNzJ1aTMwOTAyNHEya29vOGN6cTV2M2kifQ.rEQ5ubToGj8SRNhMyytcmw';
     
     var map = new mapboxgl.Map({
@@ -145,24 +157,17 @@
 
     d3.json("sites.geojson").then(function(data){ 
         for (var i=0; i < data.features.length; i++) {
-            if (data.features[i].geometry.type == "Point"){
-                var props = data.features[i].properties;
-                var col;
+            if (data.features[i].geometry.type == "Point" && 
+                data.features[i].geometry.coordinates.length === 2){
                 
-                // Set color based on type
-                if (props.type == "Installation"){
-                    col = '#ff5f4c';
-                } else if (props.type == "Library") {
-                    col = '#43A2CE';
-                } else if (props.type == "Community Center") {
-                    col = '#18a1cd';
-                } else {
-                    col = '#2ecc40';
-                }
+                var props = data.features[i].properties;
+                
+                // Get color based on category
+                var col = getCategoryColor(props.category);
 
-                // Build popup content
+                // Build popup content with category-colored header
                 var popupHTML = '<div class="competition">' + props.competitiontitle + '</div>' +
-                    '<h4>' + props.name + '</h4>';
+                    '<h3 style="background-color: ' + col + ';">' + props.name + '</h3>';
                 
                 if (props.authors) {
                     popupHTML += '<div class="authors">By: ' + props.authors + '</div>';
@@ -180,5 +185,6 @@
         }
     });
 </script>
+ 
 </body>
 </html>
