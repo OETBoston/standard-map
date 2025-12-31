@@ -126,7 +126,7 @@
     }
 
     .mapboxgl-popup-anchor-top>.mapboxgl-popup-content {
-      margin-top: 0px;
+      margin-top: 5px;
     }
 
     .mapboxgl-popup-anchor-bottom .mapboxgl-popup-tip {
@@ -240,7 +240,7 @@
                 
                 popupHTML += '<div class="description">' + props.about + '</div>';
 
-                popupHTML += '<div class="description"><strong>' + props.competitiontitle + '</strong></div>';
+                //popupHTML += '<div class="description"><strong>' + props.competitiontitle + '</strong></div>';
 
                 const popup = new mapboxgl.Popup({ offset: 25 }).setHTML(popupHTML);
                  
