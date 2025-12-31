@@ -91,14 +91,6 @@
     .mapboxgl-container {
       cursor: pointer;
     }
-
-    .mapboxgl-popup-anchor-top>.mapboxgl-popup-content {
-      margin-top: 3px;
-    }
-
-    .mapboxgl-popup-anchor-top>.mapboxgl-popup-tip {
-      border-bottom-color: #284384;
-    }
     
     .mapboxgl-ctrl-geocoder {
       width: 315px!important;
@@ -132,7 +124,7 @@
         'Reinventing Infrastructure': '#452d88',
         'Green Infrastructure': '#3D9970'
       };
-      return colors[category] || '#666666'; // default gray if category not found
+      return colors[category] || '#666666';
     }
 
     mapboxgl.accessToken = 'pk.eyJ1Ijoib2V0Ym9zdG9uIiwiYSI6ImNtNzJ1aTMwOTAyNHEya29vOGN6cTV2M2kifQ.rEQ5ubToGj8SRNhMyytcmw';
@@ -165,8 +157,14 @@
                 // Get color based on category
                 var col = getCategoryColor(props.category);
 
-                // Build popup content with category-colored header
-                var popupHTML = '<div class="competition">' + props.competitiontitle + '</div>' +
+                // Build popup content with category-colored header and tip styling
+                var popupHTML = '<style>' +
+                    '.mapboxgl-popup-anchor-top > .mapboxgl-popup-tip { border-bottom-color: ' + col + '; }' +
+                    '.mapboxgl-popup-anchor-bottom > .mapboxgl-popup-tip { border-top-color: ' + col + '; }' +
+                    '.mapboxgl-popup-anchor-left > .mapboxgl-popup-tip { border-right-color: ' + col + '; }' +
+                    '.mapboxgl-popup-anchor-right > .mapboxgl-popup-tip { border-left-color: ' + col + '; }' +
+                    '</style>' +
+                    '<div class="competition">' + props.competitiontitle + '</div>' +
                     '<h3 style="background-color: ' + col + ';">' + props.name + '</h3>';
                 
                 if (props.authors) {
