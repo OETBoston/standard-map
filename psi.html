@@ -95,10 +95,75 @@
     .mapboxgl-ctrl-geocoder {
       width: 315px!important;
     }
+
+    .mapboxgl-ctrl-logo {
+      display: none !important;
+    }
+
+    /* Legend styles */
+    .legend {
+      position: absolute;
+      bottom: 40px;
+      left: 10px;
+      background: white;
+      padding: 15px;
+      border-radius: 5px;
+      box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+      font-family: 'Source Sans Pro', 'Helvetica Neue', Sans-serif;
+      font-size: 13px;
+      z-index: 1;
+    }
+
+    .legend h4 {
+      margin: 0 0 10px 0;
+      font-size: 14px;
+      font-weight: 700;
+    }
+
+    .legend-item {
+      margin: 5px 0;
+      display: flex;
+      align-items: center;
+    }
+
+    .legend-color {
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      margin-right: 8px;
+      display: inline-block;
+    }
   </style>
 </head>
 <body>
 <div id="map"></div>
+<div class="legend">
+  <h4>Project Categories</h4>
+  <div class="legend-item">
+    <span class="legend-color" style="background-color: #284384;"></span>
+    <span>Pop-up Infrastructure</span>
+  </div>
+  <div class="legend-item">
+    <span class="legend-color" style="background-color: #4e9bb8;"></span>
+    <span>Technology + Participation</span>
+  </div>
+  <div class="legend-item">
+    <span class="legend-color" style="background-color: #2A644D;"></span>
+    <span>Simple Tools, Simple Materials</span>
+  </div>
+  <div class="legend-item">
+    <span class="legend-color" style="background-color: #3c8c99;"></span>
+    <span>Storytelling + History</span>
+  </div>
+  <div class="legend-item">
+    <span class="legend-color" style="background-color: #452d88;"></span>
+    <span>Reinventing Infrastructure</span>
+  </div>
+  <div class="legend-item">
+    <span class="legend-color" style="background-color: #3D9970;"></span>
+    <span>Green Infrastructure</span>
+  </div>
+</div>
 <script>
     
     var locationData;
@@ -164,8 +229,8 @@
                     '.mapboxgl-popup-anchor-left > .mapboxgl-popup-tip { border-right-color: ' + col + '; }' +
                     '.mapboxgl-popup-anchor-right > .mapboxgl-popup-tip { border-left-color: ' + col + '; }' +
                     '</style>' +
-                    '<div class="competition">' + props.competitiontitle + '</div>' +
-                    '<h3 style="background-color: ' + col + ';">' + props.name + '</h3>';
+                    '<h3 style="background-color: ' + col + ';">' + props.name + '</h3>' +
+                    '<div class="competition">' + props.competitiontitle + '</div>';
                 
                 if (props.authors) {
                     popupHTML += '<div class="authors">By: ' + props.authors + '</div>';
