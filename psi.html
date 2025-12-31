@@ -146,18 +146,14 @@
 <body>
 <div id="map"></div>
 <div class="legend">
-  <h4>Themes</h4>
-  <div class="legend-item">
-    <span class="legend-color" style="background-color: #3D9970;"></span>
-    <span>Green Infrastructure</span>
-  </div>
+  <h4>Categories</h4>
   <div class="legend-item">
     <span class="legend-color" style="background-color: #284384;"></span>
     <span>Pop-up Infrastructure</span>
   </div>
   <div class="legend-item">
-    <span class="legend-color" style="background-color: #ea580c;"></span>
-  <span>Reinventing Infrastructure</span>
+    <span class="legend-color" style="background-color: #4e9bb8;"></span>
+    <span>Technology + Participation</span>
   </div>
   <div class="legend-item">
     <span class="legend-color" style="background-color: #dc2626;"></span>
@@ -168,8 +164,12 @@
     <span>Storytelling + History</span>
   </div>
   <div class="legend-item">
-    <span class="legend-color" style="background-color: #4e9bb8;"></span>
-    <span>Technology + Participation</span>
+    <span class="legend-color" style="background-color: #ea580c;"></span>
+    <span>Reinventing Infrastructure</span>
+  </div>
+  <div class="legend-item">
+    <span class="legend-color" style="background-color: #3D9970;"></span>
+    <span>Green Infrastructure</span>
   </div>
 </div>
 <script>
@@ -222,7 +222,7 @@
     
     map.addControl(new mapboxgl.NavigationControl(), 'bottom-right');
     
-    map.addControl(new mapboxgl.FullscreenControl(), 'bottom-right');
+    map.addControl(new mapboxgl.FullscreenControl(), 'top-right');
 
     d3.json("sites.geojson").then(function(data){ 
         for (var i=0; i < data.features.length; i++) {
