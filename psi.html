@@ -16,14 +16,14 @@
 <style>
     body {
       margin: 0;
-      padding: 0;
+      padding: 10px 0 0 0;
       font-family:"Inter","Helvetica Neue", Helvetica, Arial, sans-serif;
       color: #333;
     }
 
     #map {
       position: absolute;
-      top: 0;
+      top: 10px;
       bottom: 0;
       width: 100%;
     }
@@ -148,28 +148,28 @@
 <div class="legend">
   <h4>Categories</h4>
   <div class="legend-item">
-    <span class="legend-color" style="background-color: #3D9970;"></span>
-    <span>Green Infrastructure</span>
-  </div>
-  <div class="legend-item">
-    <span class="legend-color" style="background-color: #284384;"></span>
+    <span class="legend-color" style="background-color: #423D99;"></span>
     <span>Pop-up Infrastructure</span>
   </div>
-    <div class="legend-item">
-    <span class="legend-color" style="background-color: #ea580c;"></span>
-    <span>Reinventing Infrastructure</span>
+  <div class="legend-item">
+    <span class="legend-color" style="background-color: #3D9299;"></span>
+    <span>Technology + Participation</span>
   </div>
   <div class="legend-item">
-    <span class="legend-color" style="background-color: #dc2626;"></span>
+    <span class="legend-color" style="background-color: #94993D;"></span>
     <span>Simple Tools, Simple Materials</span>
   </div>
   <div class="legend-item">
-    <span class="legend-color" style="background-color: #a855f7;"></span>
+    <span class="legend-color" style="background-color: #993D66;"></span>
     <span>Storytelling + History</span>
   </div>
   <div class="legend-item">
-    <span class="legend-color" style="background-color: #4e9bb8;"></span>
-    <span>Technology + Participation</span>
+    <span class="legend-color" style="background-color: #993D3D;"></span>
+    <span>Reinventing Infrastructure</span>
+  </div>
+  <div class="legend-item">
+    <span class="legend-color" style="background-color: #3D9970;"></span>
+    <span>Green Infrastructure</span>
   </div>
 </div>
 <script>
@@ -190,12 +190,12 @@
     // Category color mapping
     function getCategoryColor(category) {
       const colors = {
-        'Pop-up Infrastructure': '#3b5998',
-        'Technology + Participation': '#4e9bb8',
-        'Simple Tools, Simple Materials': '#dc2626',
-        'Storytelling + History': '#a855f7',
-        'Reinventing Infrastructure': '#ea580c',
-        'Green Infrastructure': '#2e8b57'
+        'Pop-up Infrastructure': '#423D99',
+        'Technology + Participation': '#3D9299',
+        'Simple Tools, Simple Materials': '#94993D',
+        'Storytelling + History': '#993D66',
+        'Reinventing Infrastructure': '#993D3D',
+        'Green Infrastructure': '#3D9970'
       };
       return colors[category] || '#666666';
     }
