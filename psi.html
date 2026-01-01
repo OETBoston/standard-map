@@ -220,7 +220,10 @@
     
     map.scrollZoom.disable();
     
-    map.addControl(new mapboxgl.NavigationControl(), 'bottom-right');
+    map.addControl(new mapboxgl.NavigationControl({
+        showCompass: false, // This removes the 3D/Compass button
+        showZoom: true      // This keeps the + and - buttons
+    }), 'bottom-right');
     
     map.addControl(new mapboxgl.FullscreenControl(), 'top-right');
 
