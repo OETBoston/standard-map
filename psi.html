@@ -222,7 +222,7 @@
     
     map.addControl(new mapboxgl.NavigationControl(), 'bottom-right');
     
-    map.addControl(new mapboxgl.FullscreenControl(), 'bottom-right');
+    map.addControl(new mapboxgl.FullscreenControl(), 'top-right');
 
     d3.json("sites.geojson").then(function(data){ 
         for (var i=0; i < data.features.length; i++) {
